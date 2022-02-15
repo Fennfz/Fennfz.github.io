@@ -1,0 +1,12 @@
+body {
+    background-color: gray;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+@media screen and (max-width: 600px){
+    .phonecontent{
+        display: none;
+    }
+
+}
