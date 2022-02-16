@@ -8,5 +8,10 @@ body {
     .phonecontent{
         display: none;
     }
+}
 
+.banner-area{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 5%;
 }
