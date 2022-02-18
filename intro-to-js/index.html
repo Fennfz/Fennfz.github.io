@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <h1 id="myname">My name is</h1>
-    <button onclick="askMyname()">Ask My Name</button>
-    <button onclick="helloWorld()">Hello World</button>
-    <script src="fen.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Intro to JS</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <h1 id="myname"></h1>
+  <button onclick="askMyname()">Ask My Name</button>
+  <button onclick="helloWorld()">Hello World</button>
+  <button onclick="calAge()">What is your birth year</button>
+  
+  <p><strong>Name:</strong>
+  <p id="my-name"></p>
+  </p>
+  <p><strong>Province:</strong>
+  <p id="my-province"></p>
+  </p>
+  <button onclick="loadPeofile()">Load Profile</button>
+  
+  
+  <script src="fen.js"></script>
+</body>
+
 </html>
