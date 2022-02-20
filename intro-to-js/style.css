@@ -1,0 +1,20 @@
+html{
+    height: 100%;
+} 
+
+body{
+    background: linear-gradient(to bottom right, #ccccff, #ffccff);
+    text-align: center;
+} 
+
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border-width: 0px;
+    color: white;
+    background: #6666ff;
+    transition-duration: 300ms;
+    
+}

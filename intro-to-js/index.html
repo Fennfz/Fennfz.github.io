@@ -6,25 +6,25 @@
   <meta name="viewport" content="width=device-width">
   <title>Intro to JS</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="fen.js"></script>
 </head>
 
 <body>
   
-  <h1 id="myname"></h1>
-  <button onclick="askMyname()">Ask My Name</button>
-  <button onclick="helloWorld()">Hello World</button>
-  <button onclick="calAge()">What is your birth year</button>
+    <h1 id="myname"></h1>
+    <button class="btn" onclick="askMyname()">Ask My Name</button>
+    <button class="btn" onclick="helloWorld()">Hello World</button>
+    <button class="btn" onclick="calAge()">Your birth year</button>
+    
+    <p><strong>Name:</strong>
+    <p id="my-name"></p>
+    </p>
+    <p><strong>Province:</strong>
+    <p id="my-province"></p>
+    </p>
+    <button class="btn" onclick="loadPeofile()">Load Profile</button>
+    
   
-  <p><strong>Name:</strong>
-  <p id="my-name"></p>
-  </p>
-  <p><strong>Province:</strong>
-  <p id="my-province"></p>
-  </p>
-  <button onclick="loadPeofile()">Load Profile</button>
-  
-  
-  <script src="fen.js"></script>
 </body>
 
 </html>
