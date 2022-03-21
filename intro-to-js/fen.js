@@ -1,6 +1,5 @@
 
 
-
 function askMyname(){
   const name = prompt('Please enter your name', '');
   if (name !=null){
